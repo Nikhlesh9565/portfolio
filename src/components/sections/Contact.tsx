@@ -200,18 +200,17 @@ const Contact = () => {
               variants={itemVariants}
               role="paragraph"
             >
-              I'm always interested in hearing about new projects and opportunities.
-              Whether you have a question or just want to say hi, feel free to reach out!
+              I'm always open to connecting with like-minded people, exploring exciting projects, or just chatting about tech. Drop a message — I’d love to hear from you!
             </ContactText>
             <ContactEmail 
-              href="mailto:your.email@example.com"
+              href="mailto:nikhleshvishwakarma657@gmail.com"
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              aria-label="Send me an email at your.email@example.com"
+              aria-label="Send me an email at nikhleshvishwakarma657@gmail.com"
             >
               <FaEnvelope aria-hidden="true" />
-              <span>your.email@example.com</span>
+              <span>nikhleshvishwakarma657@gmail.com</span>
             </ContactEmail>
             <SocialLinks 
               variants={itemVariants}
@@ -219,7 +218,7 @@ const Contact = () => {
               aria-label="Social media links"
             >
               <SocialLink 
-                href="https://github.com"
+                href="https://github.com/Nikhlesh9565"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
@@ -230,7 +229,7 @@ const Contact = () => {
                 <span className="sr-only">GitHub</span>
               </SocialLink>
               <SocialLink 
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/nikhlesh-vishwakarma-0b73b61b7"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
@@ -239,17 +238,6 @@ const Contact = () => {
               >
                 <FaLinkedin aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
-              </SocialLink>
-              <SocialLink 
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ y: -5 }}
-                role="listitem"
-                aria-label="Follow me on Twitter"
-              >
-                <FaTwitter aria-hidden="true" />
-                <span className="sr-only">Twitter</span>
               </SocialLink>
             </SocialLinks>
           </ContactContent>

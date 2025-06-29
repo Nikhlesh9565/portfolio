@@ -15,7 +15,10 @@ import {
   SiPython,
   SiMongodb,
   SiPostgresql,
-  SiRedux
+  SiRedux,
+  SiPerl,
+  SiCss3,
+  SiHtml5
 } from 'react-icons/si';
 
 const SkillsSection = styled.section`
@@ -156,10 +159,9 @@ const skillCategories = [
     title: 'Frontend',
     icon: <FaReact />,
     skills: [
-      { name: 'React', icon: <FaReact /> },
-      { name: 'TypeScript', icon: <SiTypescript /> },
+      { name: 'HTML', icon: <SiHtml5 /> },
+      { name: 'CSS', icon: <SiCss3 /> },
       { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'Redux', icon: <SiRedux /> },
     ],
   },
   {
@@ -168,7 +170,7 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', icon: <FaNodeJs /> },
       { name: 'Python', icon: <SiPython /> },
-      { name: 'MongoDB', icon: <SiMongodb /> },
+      { name: 'Perl', icon: <SiPerl /> },
       { name: 'PostgreSQL', icon: <SiPostgresql /> },
     ],
   },
@@ -178,7 +180,6 @@ const skillCategories = [
     skills: [
       { name: 'Docker', icon: <FaDocker /> },
       { name: 'Git', icon: <FaGitAlt /> },
-      { name: 'AWS', icon: <FaAws /> },
       { name: 'CI/CD', icon: <FaDatabase /> },
     ],
   },

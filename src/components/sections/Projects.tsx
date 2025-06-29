@@ -178,21 +178,19 @@ const ProjectLinks = styled.div`
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A full-stack web application with real-time features and modern UI/UX design.",
-    image: "https://via.placeholder.com/400x200",
-    techStack: ["React", "Node.js", "MongoDB", "Socket.IO"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    title: "Babusiya",
+    description: "Built and maintained the backend architecture, implemented CI/CD pipelines, containerized the application using Docker, and managed database operations using ORM for optimized performance and scalability.",
+    image: "/babusiya.png",
+    techStack: ["React.js", "Perl ( Mojolicious )", "PostgreSql", "RestApis"],
+    liveUrl: "https://www.babusiya.com/",
   },
   {
     id: 2,
-    title: "Project Two",
-    description: "Mobile-first e-commerce platform with seamless payment integration.",
-    image: "https://via.placeholder.com/400x200",
-    techStack: ["Next.js", "TypeScript", "Stripe", "Tailwind"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    title: "Mozo Suite",
+    description: "As a backend developer, I architected and developed RESTful APIs using Perl Mojolicious, implemented ORM for efficient database interaction, containerized the application with Docker for consistent deployment, and ensured robust backend logic to support CRM and HRMS modules.",
+    image: "/mozosuite.png",
+    techStack: ["Next.js", "Perl ( Mojolicious )", "PostgreSql", "RestApis"],
+    liveUrl: "https://portal.mozosuite.com/",
   },
 ];
 
@@ -260,13 +258,11 @@ const Projects = () => {
                 </TechStack>
                 <ProjectLinks>
                   <a 
-                    href={project.githubUrl} 
+                    // href={project.githubUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label={`View ${project.title} source code on GitHub`}
                   >
-                    <FaGithub aria-hidden="true" />
-                    <span className="sr-only">GitHub repository</span>
                   </a>
                   <a 
                     href={project.liveUrl} 
