@@ -25,7 +25,7 @@ export default defineConfig({
       compressionOptions: { level: 9 }
     }),
     visualizer({
-      open: true,
+      open: false,
       gzipSize: true,
       brotliSize: true,
     })
