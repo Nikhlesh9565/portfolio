@@ -7,15 +7,11 @@ import {
   FaDatabase, 
   FaDocker,
   FaGitAlt,
-  FaAws
 } from 'react-icons/fa';
 import { 
-  SiTypescript,
   SiJavascript,
   SiPython,
-  SiMongodb,
   SiPostgresql,
-  SiRedux,
   SiPerl,
   SiCss3,
   SiHtml5
